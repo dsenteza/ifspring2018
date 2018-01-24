@@ -1,0 +1,36 @@
+#title{
+	font-weight: bold;
+}
+
+#quotes{
+	font-style: italic;
+}
+
+.venkman{
+	color: red;
+}
+
+.dana{
+	color: blue;
+}
+
+.stantz{
+	color: green;
+}
+
+.mayor{
+	color: purple;
+}
+
+#spengler{
+	color: black;
+}
+
+#zeddmore{
+	color: yellow;
+}
+
+.descriptions{
+	font-weight: bold;
+	font-style: italic;
+}
