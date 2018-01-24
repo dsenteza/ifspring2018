@@ -51,3 +51,8 @@ p{
 b{
 	text-transform: uppercase;
 }
+
+span{
+	color: black;
+	margin-right: 20px;
+}
