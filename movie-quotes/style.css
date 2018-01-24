@@ -1,36 +1,53 @@
+body{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	background-color: grey;
+}
+
 #title{
 	font-weight: bold;
+	text-decoration: underline;
 }
 
 #quotes{
 	font-style: italic;
 }
 
+p{
+	margin: 7px;
+}
+
 .venkman{
-	color: red;
+	color: #990000;
 }
 
 .dana{
-	color: blue;
+	color: #00007f;
 }
 
 .stantz{
-	color: green;
+	color: #004000;
 }
 
 .mayor{
-	color: purple;
+	color: #400040;
 }
 
 #spengler{
-	color: black;
+	color: #404040;
 }
 
 #zeddmore{
-	color: yellow;
+	color: #ffd700;
 }
 
 .descriptions{
 	font-weight: bold;
 	font-style: italic;
+	text-transform: uppercase;
+}
+
+b{
+	text-transform: uppercase;
 }
