@@ -29,6 +29,9 @@ img{
 	margin: none;
 	padding: none;
 }
+.words{
+	font-family: sans-serif;
+}
 #footer{
 	background-color: black;
 	margin: none;
