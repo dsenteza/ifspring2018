@@ -1,0 +1,38 @@
+body{
+	background-color: #7E7E7E;
+	color: white;
+	align-self: center;
+	margin: auto;
+	text-align: center;
+}
+#title{
+	color: black;
+	text-transform: uppercase;
+	font-size: 30px;
+	background-color: white;
+	padding: 20px;
+}
+img{
+	height: 200px;
+	width: 200px;
+}
+#artists{
+	color: #151515;
+	font-size: 20px;
+}
+.name{
+	font-style: italic;
+	font-weight: bold;
+	color: #3F3F3F;
+}
+.lyrics{
+	margin: none;
+	padding: none;
+}
+#footer{
+	background-color: black;
+	margin: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
