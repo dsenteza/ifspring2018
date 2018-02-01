@@ -1,0 +1,61 @@
+body {
+	font-family: 'Raleway', 'Arial', sans-serif;
+	line-height: 0.5;
+	background-color: #EBF4FA;
+	margin-left: 50px;
+}
+div {
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+#title{
+	font-size: 50px;
+	color: #151B54;
+}
+.regular{
+	font-size: 20pt;
+	color: #0C090A;
+}
+.heading{
+	font-size: 19pt;
+	color: #25383C;
+}
+.lable{
+	font-size: 10pt;
+	color: #25383C;
+}
+#bold{
+	font-weight: bold;
+}
+#light{
+	font-weight: 200;
+}
+#italic{
+	font-style: italic;
+}
+#wideSpace{
+	letter-spacing: 0.2em;
+	line-height: 1;
+}
+#narrowSpace{
+	letter-spacing: -0.1em;
+}
+#underline{
+	text-decoration: underline;
+}
+#line-through{
+	text-decoration: line-through;
+}
+#overline{
+	text-decoration: overline;
+}
+#uppercase{
+	text-transform: uppercase;
+	line-height: 1;
+}
+#lowercase{
+	text-transform: lowercase;
+}
+#capital{
+	text-transform: capitalize;
+}
