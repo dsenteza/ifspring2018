@@ -1,0 +1,71 @@
+body{
+	background-image: url(backgroundLong.jpg);
+	background-repeat: no-repeat;
+	background-size: 1550px 768px;
+	max-width: 1550px;
+	max-height: 768px;
+	overflow: hidden;
+}
+#title{
+	text-transform: uppercase;
+	color: #b64926;
+	font-size: 100px; 
+	text-align: right;
+	padding-right: 30px;
+	position: relative;
+	bottom: 20px;
+	font-family: 'PT Serif', serif;
+}
+#artists{
+	font-family: 'PT Sans', sans-serif;
+	color: #fff;
+	height: 20px;
+	width: 600px;
+	position: absolute;
+	top: 60px;
+	right: 10px;
+}
+#lyricText{
+	color: #791b19;
+	overflow: hidden;
+	overflow-y: scroll; 
+	font-family: 'PT Sans', sans-serif;
+	width:500px; 
+	height:400px;
+	text-decoration: none;
+	position: relative;
+	bottom: 85px;
+	line-height: .75em;
+	margin-left: 100px;
+	font-size: 20px;
+}
+/*Removing scrollbar from: https://stackoverflow.com/questions/15314454/overflow-scrolling-with-no-scrollbars*/
+#lyricText::-webkit-scrollbar {
+	width: 0px;
+}
+br{
+	line-height: 0.05em;
+}
+.name{
+	font-weight:bold;
+}
+.lyrics p{
+	text-align: right;
+}
+.john p{
+	text-align: left;
+}
+#footer{
+	font-size: 15px;
+	line-height: .2em;
+	position: absolute;
+	bottom: 5px;
+	left: 525px;
+	text-align: center;
+}
+#footer p{
+	color: #b64926;
+}
+#footer a{
+	color: #f29f5b;
+}
