@@ -1,0 +1,131 @@
+a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	text-decoration: none;
+}
+
+
+p {
+	font-family: 'Pinyon Script', cursive;
+	/*font-family: sans-serrif;*/
+}
+
+.kim {
+	font-family: 'Roboto', sans-serif;
+}
+
+.first {
+	background-color: #5F9F9F;
+}
+
+.first img {
+	height: 75%;
+	width: 75%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.first p {
+	display: block;
+	padding-left: 50px;
+	font-size: 5em;
+	font-weight: bold;
+	color: #fffff0;
+	line-height: 150px;
+}
+
+.first .kim {
+	line-height: 0em;
+	font-size: 3em;
+	position: relative;
+	top: -40px;
+	font-weight: normal;
+}
+
+.second {
+	/*background-image: url("flashingBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background-color: #8B0000;
+}
+
+.second img {
+	height: 120%;
+	width: 65%;
+	display: block;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
+
+.second p {
+	display: block;
+	/*position: absolute;*/
+}
+
+.third {
+	background-color: tan;
+}
+
+.third img {
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	top: 0%;
+	left: 25%;
+}
+
+.third p {
+	display: block;
+	padding-left: 50px;
+	font-size: 5em;
+	font-weight: bold;
+	color: #DC143C;
+	line-height: 2em;
+	text-shadow: 1px 1px 7px rgba(150, 150, 150, 1);
+}
+
+#start {
+	text-align: left;
+	position: fixed;
+	top: -10%;
+	left: 0%;
+	z-index: 50;
+}
+
+#end {
+	text-align: right;
+	position: fixed;
+	bottom: 0%;
+	right: 3%;
+	z-index: 50;
+}
+
+#end .kim {
+	font-size: 3em;
+	line-height: 0rem;
+	position: relative;
+	bottom: 50px;
+	font-weight: normal;
+}
+
+/*.third @media screen and (max-width: 1024px){
+	
+}*/
+
+@media screen and (max-width: 450px){
+	.third img {
+		height: 100%;
+		width: 75%;
+		position: fixed;
+		bottom: 0%;
+		right: 0%;
+	}
+}
