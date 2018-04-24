@@ -1,0 +1,178 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', 'sans-serif';
+}
+
+#navBar {
+	height: 70px;
+	background-color: #F2F2F3;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+#navLogo {
+	margin:none;
+}
+
+#img {
+	display: inline-block;
+	float: left;
+	position: relative;
+	bottom: 85px;
+	z-index: 10;
+}
+
+img {
+	margin: 20px;
+}
+
+#navigation {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-right: 50px;
+}
+
+#title {
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: linear-gradient(#0E1131, #102026, #2664AA, #102026, #0E1131);
+}
+
+h1 {
+	color: #F2F2F3;
+	text-transform: uppercase;
+	position: absolute;
+	top: 180px;
+	left: 45%;
+}
+
+#main {
+	color: #C3CBDA;
+	background-color: #2664AA;
+	margin-top: none;
+	margin-bottom: none;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#block {
+	width: 40%;
+	height: 40%;
+	display: inline-block;
+	float: left;
+	margin-right: 50px;
+}
+
+#versus {
+
+	width: 33%;
+	height: 33%;
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+}
+
+#footer {
+	background-color: #0E1131;
+}
+
+#footer:first-child {
+	width: 50%;
+}
+
+#involved {
+	padding-left: 20px;
+}
+
+#footer p {
+	color: #f2f2f3;
+}
+
+#footer table {
+	display: inline-block;
+	table-layout: fixed;
+}
+
+#footGrid {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	color: #f2f2f3;
+}
+
+th {
+	text-align: center;
+	padding-left: 10px;
+}
+
+#footText {
+	font-size: 0.7em;
+	text-align: left;
+	padding-left: 100px;
+}
+
+#footGrid td {
+	width: 50%;
+	text-align: center;
+	padding-left: 20px;
+}
+
+#footer i {
+	font-size: 40px;
+}
+
+#community {
+	padding-top: 15px;
+}
+
+#community td {
+	padding-top: 10px;
+}
+
+#twitter {
+	color: #1DA1F2;
+}
+
+#twitter:hover {
+	color: #f2f2f3;
+}
+
+#youtube {
+	color: #FF0000;
+}
+
+#youtube:hover {
+	color: #f2f2f3;
+}
+
+#github {
+	color: #000;
+}
+
+#github:hover {
+	color: #f2f2f3
+}
+
+#fb {
+	color: #3B5998;
+}
+
+#fb:hover {
+	color: #f2f2f3;
+}

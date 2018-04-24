@@ -1,0 +1,200 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', 'sans-serif';
+}
+
+#navBar {
+	height: 70px;
+	background-color: #F2F2F3;
+	position: fixed;
+	width: 100%;
+}
+
+#navLogo {
+	margin:none;
+}
+
+#img {
+	display: inline-block;
+	float: left;
+	position: relative;
+	bottom: 85px;
+}
+
+img {
+	margin: 20px;
+}
+
+#navigation {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-right: 50px;
+}
+
+#header {
+	background: linear-gradient(#0E1131, #2664AA, #F2F2F3, #2664AA, #0E1131);
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	margin-bottom: none;
+}
+
+#header h1 {
+	color: #c3cbda;
+	text-transform: uppercase;
+}
+
+#overview {
+	margin-top: none;
+	margin-top: none;
+	margin-bottom: none;
+	background-color: #102026;
+	text-align: center;
+	color: #f2f2f3;
+	position: relative;
+	bottom: 50px;
+}
+
+#overview h2 {
+	padding-top: 50px;
+}
+
+#crypto {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: left;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+
+#overview img {
+	height: 20%;
+	width: 20%;
+	display: inline-block;
+}
+
+#ovText {
+	line-height: 1.5em;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+#companies {
+	margin-top: none;
+	margin-bottom: none;
+	background-color: #F2F2F3;
+	color: #102026;
+	text-align: center;
+}
+
+#companies h3 {
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#companies img {
+	height: 75%;
+	width: 75%;
+}
+
+#footer {
+	background-color: #0E1131;
+}
+
+#footer:first-child {
+	width: 50%;
+}
+
+#involved {
+	padding-left: 20px;
+}
+
+#footer p {
+	color: #f2f2f3;
+}
+
+#footer table {
+	display: inline-block;
+	table-layout: fixed;
+}
+
+#footGrid {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	color: #f2f2f3;
+}
+
+th {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footText {
+	font-size: 0.7em;
+	text-align: left;
+	padding-left: 100px;
+}
+
+#footGrid td {
+	width: 50%;
+	text-align: center;
+}
+
+#footer i {
+	font-size: 40px;
+}
+
+#community {
+	padding-top: 15px;
+}
+
+#community td {
+	padding-top: 10px;
+}
+
+#twitter {
+	color: #1DA1F2;
+}
+
+#twitter:hover {
+	color: #f2f2f3;
+}
+
+#youtube {
+	color: #FF0000;
+}
+
+#youtube:hover {
+	color: #f2f2f3;
+}
+
+#github {
+	color: #000;
+}
+
+#github:hover {
+	color: #f2f2f3
+}
+
+#fb {
+	color: #3B5998;
+}
+
+#fb:hover {
+	color: #f2f2f3;
+}

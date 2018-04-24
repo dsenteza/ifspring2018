@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ETHEREUM</title>
+		<!--setting the character set-->
+		<meta charset="utf-8">
+		<!--default viewport for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--font Roboto from GoogleFonts-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700" rel="stylesheet">
+		<!--external stylesheet-->
+		<link rel="stylesheet" type="text/css" href="css/ether.css">
+		<!--font awesome link-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<div id="navBar">
+			<div id="img">
+				<img id="navLogo" src="img/navLogo.png" height="200px" width="300px">
+			</div>
+			<div id="navigation">
+				<a href="index.html"><img class="navigation" src="img/homeLogo.png" height="30px" width="30px"></a>
+				<a href="history.html"><img class="navigation" src="img/historyLogo.png" height="30px" width="30px"></a>
+				<a href="ether.html"><img class="navigation" src="img/etherMenuLogo.png" height="30px" width="30px"></a>
+			</div>
+		</div>
+
+		<div id="title">
+			<h1>ether</h1>
+		</div>
+
+		<div id="main">
+			<p>Ether is a fundamental cryptocurrency for operation of Ethereum, which thereby provides a public distributed ledger for transactions. It is used to pay for gas, a unit of computation used in transactions and other state transitions. Mistakingly, this currency is also referred to as Ethereum. It is listed under the code ETH and traded on cryptocurrency exchanges, and the Greek uppercase Xi character <strong>(Ξ)</strong> is generally used for its currency symbol. It is also used to pay for transaction fees and computational services on the Ethereum network.</p>
+			<img id="block" src="img/block.png">
+			<h3>Characteristics</h3>
+			<h4>Further information: Cryptocurrency</h4>
+			<p>As with other cryptocurrencies, the validity of each ether is provided by a blockchain, which is a continuously growing list of records, called blocks, which are linked and secured using cryptography. By design, the blockchain is inherently resistant to modification of the data. It is an open, distributed ledger that records transactions between two parties efficiently and in a verifiable and permanent way. Unlike Bitcoin, Ethereum operates using accounts and balances in a manner called state transitions. This does not rely upon unspent transaction outputs (UTXOs). State denotes the current balances of all accounts and extra data. State is not stored on the blockchain, it is stored in a separate Merkle Patricia tree. A cryptocurrency wallet stores the public and private "keys" or "addresses" which can be used to receive or spend Ether. These can be generated through BIP 39 style mnemonics for a BIP 32 "HD Wallet". In Ethereum, this is unnecessary as it does not operate in a UTXO scheme. With the private key, it is possible to write in the blockchain, effectively making an ether transaction. To send ether to an account, you need the public key of that account. Ether accounts are pseudonymous in that they are not linked to individual persons, but rather to one or more specific addresses. Owners can store these addresses in software, on paper and possibly in memory ("brain wallet").
+			<h3>Addresses</h3>
+			<p>Ethereum addresses are composed of the prefix "0x", a common identifier for hexadecimal, concatenated with the rightmost 20 bytes of the Keccak-256 hash (big endian) of the ECDSA public key. In hexadecimal, 2 digits represents a byte, meaning addresses contain 40 hexadecimal digits. One example is 0xb794F5eA0ba39494cE839613fffBA74279579268, the Poloniex ColdWallet. Contract addresses are in the same format, however they are determined by sender and creation transaction nonce. User accounts are indistinguishable from contract accounts given only an address for each and no blockchain data. Any valid Keccak-256 hash put into the described format is valid, even if it does not correspond to an account with a private key or a contract. This is unlike Bitcoin, which uses base58check to ensure that addresses are properly typed.</p>
+			<img id="versus" src="img/versus.jpg">
+			<h3>Comparison to bitcoin</h3>
+			<p>Ether is different from Bitcoin (the cryptocurrency with the largest market capitalization as of January 2018) in several aspects:</p>
+			<ul>
+				<li>Its block time is 14 to 15 seconds, compared with 10 minutes for bitcoin.</li>
+				<li>Mining of ether generates new coins at a usually consistent rate, occasionally changing during hard forks, while for bitcoin the rate halves every 4 years.</li>
+				<li>For proof-of-work, it uses the Ethash algorithm which reduces the advantage of specialized ASICs in mining.</li>
+				<li>Transaction fees differ by computational complexity, bandwidth use and storage needs (in a system known as gas), while bitcoin transactions compete by means of transaction size, in bytes.</li>
+				<li>Ethereum gas units each have a price that can be specified in a transaction. This is typically measured in Gwei. Bitcoin transactions usually have fees specified in satoshis per byte.</li>
+				<li>Transaction fees are generally considerably lower for ether than for Bitcoin. In December 2017, the median transaction fee for ether corresponded to $0.33, while for bitcoin it corresponded to $23.</li>
+				<li>Ethereum uses an account system where values in Wei are debited from accounts and credited to another, as opposed to Bitcoin's UTXO system, which is more analogous to spending cash and receiving change in return. Both systems have their pros and cons; in terms of storage space, complexity, and security/anonymity.</li>
+			</ul>
+			<h3>Supply</h3>
+			<p>The total supply of ether was Ξ98 million as of January 2018. In 2017, mining generated 9.2 million new ether, corresponding to a 10% increase in its total supply.[56] Casper FFG and CBC are expected to reduce the inflation rate to between 0.5% to 2%.[57] There is no currently implemented hard cap on the total supply of ETH, but it is expected to end at a certain point, and become deflationary.</p>
+			<h3>Markets and Stores</h3>
+			<p>Ether can be traded by regular currency brokers, cryptocurrency exchanges, as well as many online cryptocurrency wallets.[58] As of January 2018, at least 150 stores accept ether.</p>
+		</div>
+
+		<div id="footer" class="row">
+				<table id="footGrid">
+					<tr>
+						<td>
+							<p>Get Involved:</p>
+							<div id="footText">
+								<p>Do you already have ideas that you want to develop on Ethereum? Maybe you need help and some funds to bring them to life, but who would lend money to someone they don’t trust?</p>
+								<p>Using Ethereum, you can create a contract that will hold a contributor's money until any given date or goal is reached. Depending on the outcome, the funds will either be released to the project owners or safely returned back to the contributors. All of this is possible without requiring a centralized arbitrator, clearinghouse or having to trust anyone.</p>
+								<p>You can even use the token you created earlier to keep track of the distribution of rewards.</p>
+							</div>
+						</td>
+						<td>
+							<table id="community">
+								<th>Community</th>
+								<tr>
+									<td>
+										<a id="twitter" href="https://twitter.com/ethereumproject" target="_blank">
+											<i class="fa fa-twitter-square" aria-hidden="true"></i>
+											<!--<i class="fa fa-twitter" aria-hidden="true"></i>-->
+										</a>
+									</td>
+									<td>
+										<a id="youtube" href="https://www.youtube.com/user/ethereumproject" target="_blank">
+											<i class="fa fa-youtube-play" aria-hidden="true"></i>
+											<!--<i class="fa fa-youtube-square" aria-hidden="true"></i>-->
+										</a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a id="github" href="https://github.com/ethereum" target="_blank">
+											<i class="fa fa-github" aria-hidden="true"></i>
+											<!--<i class="fa fa-github-square" aria-hidden="true"></i>-->
+										</a>
+									</td>
+									<td>
+										<a id="fb" href="https://www.facebook.com/ethereumproject" target="_blank">
+											<i class="fa fa-facebook-square" aria-hidden="true"></i>
+										</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+	</body>
+</html>
